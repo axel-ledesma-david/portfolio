@@ -1,0 +1,32 @@
+{
+    "nav-items": {
+        "first-item": "Skills and tools",
+        "second-item": "Projects",
+        "third-item": "Contact"
+    },
+    "profile": {
+        "rol": "Frontend Developer",
+        "description": "I am an enthusiast of the IT world. I'm very autodidact, with resolving capacity and with a lot of predisposition to learn.",
+        "greeting": "Hi, I'm Axel Ledesma - Frontend Developer",
+        "greeting-": "Hi, I'm Axel Ledesma - ",
+        "button-contact": "Contact me" 
+    },
+    "technologies": {
+        "title-technologies": "Skills and tools"
+    },
+    "projects": {
+        "title_section_projects": "Featured Projects",
+        "first-project-description": "It is an ecommerce of watches, both analogue, digital and smart watches.",
+        "second-project-description": "A movies and series page where you can to search for name and genre. Also you can to add to favorite. This page was made it with TheMovieDB api",
+        "third-project-description": "It's a real time chat wich you can to join entering a username and a id room. This project did it with socket.io in client side and in server side",
+        "btn-deploy": "open website"
+    },
+    "footer": {
+        "title-contact": "Contact me",
+        "label-name": "Name",
+        "label-email": "Email",
+        "label-subject": "Subject",
+        "label-message": "Message",
+        "form-submit": "Send Email"
+    }
+}

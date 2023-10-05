@@ -1,0 +1,32 @@
+{
+    "nav-items": {
+        "first-item": "Habilidades",
+        "second-item": "Proyectos",
+        "third-item": "Contacto"
+    },
+    "profile": {
+        "rol": "Desarrollador Frontend",
+        "description": "Soy un entusiasta del mundo IT. Soy muy autodidacta, con capacidad resolutiva y con mucha predisposición a aprender.",
+        "greeting": "Hola, Soy Axel Ledesma - Desarrollador Frontend",
+        "greeting-": "Hola, Soy Axel Ledesma - ",
+        "button-contact": "Contactame" 
+    },
+    "technologies": {
+        "title-technologies": "Tecnologías y herramientas"
+    },
+    "projects": {
+        "title_section_projects": "Proyectos destacados",
+        "first-project-description": "Es una ecommerce de relojes tanto analógicos como digitales y relojes inteligentes.",
+        "second-project-description": "Una página de películas y series donde se puede buscar por nombre y por género y además se puede agregar a favoritos. Esta página fue hecha con la api The Movie DB",
+        "third-project-description": "Es un chat en tiempo real el cual se ingresa poniendo un nombre de usuario y un id room que sería un nombre de chat. Esta página se hizo utilizando web sockets tanto en el lado del cliente como en el del servidor",
+        "btn-deploy": "abrir proyecto"
+    },
+    "footer": {
+        "title-contact": "Contactame",
+        "label-name": "Nombre",
+        "label-email": "Correo",
+        "label-subject": "Asunto",
+        "label-message": "Mensaje",
+        "form-submit": "Enviar correo"
+    }
+}

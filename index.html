@@ -6,26 +6,177 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Axel Ledesma - Portfolio</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar">
-        <a href="#" class="link-name">Axel <ion-icon name="code" class="icon-code"></ion-icon></a>
-        <ul class="nav-list" id="nav-list" >
-            <li class="nav-item"><a href="" class="nav-link">Habilidades</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Proyectos</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Contacto</a></li>
-        </ul>
-        <input type="checkbox" id="checkbox">
-        <label for="checkbox" class="toggle" id="toogle" >
-            <div class="bars" id="bar1"></div>
-            <div class="bars" id="bar2"></div>
-            <div class="bars" id="bar3"></div>
-        </label>    
-        <!-- <ion-icon name="menu" class="icon-menu" ></ion-icon> -->
-    </nav>
-    <main>
+    <div class="scroll-top" id="btn-scroll" ><ion-icon name="arrow-dropup-circle" class="icon-scroll-up" ></ion-icon></div>
+    <a href="https://wa.me/543425409493" target="_blank" class="whatsapp">
+        <img src="./assets/whatsapp-svgrepo-com.svg" alt="whatsapp" class="svg-wsp">
+    </a>
+    <header class="header">
+        <nav class="navbar" id="navbar">
+            <a href="#" class="link-name">Axel <ion-icon name="code" class="icon-code"></ion-icon></a>
 
+            <div class="flags" id="flags">
+                <div class="flag_item" data-language="es" >
+                    <img src="./assets/languages/flag.png" class="img-flag" alt="Español">
+                </div>
+                <div class="flag_item" data-language="en" >
+                    <img src="./assets/languages/united-kingdom.png" class="img-flag" alt="English">
+                </div>
+            </div>
+
+            <ul class="nav-list" id="nav-list">
+                <li class="nav-item"><a href="#technologies" class="nav-link" data-section="nav-items" data-value="first-item" >Habilidades</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link" data-section="nav-items" data-value="second-item">Proyectos</a></li>
+                <li class="nav-item"><a href="#footer" class="nav-link" data-section="nav-items" data-value="third-item" >Contacto</a></li>
+                
+                <div class="icon-mode-container" id="icon-container">
+                    <ion-icon name="moon" class="icon-mode"></ion-icon>
+                </div>
+            </ul>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox" class="toggle" id="toogle">
+                <div class="bars" id="bar1"></div>
+                <div class="bars" id="bar2"></div>
+                <div class="bars" id="bar3"></div>
+            </label>
+        </nav>
+
+        <div class="cover">
+            <div class="text-cover">
+                <h1 class="title-cover" data-section="profile" data-value="greeting" >Hola, soy Axel Ledesma - Desarrollador Front-end</h1>
+                <p class="paragraph-cover" data-section="profile" data-value="description">Soy un entusiasta del mundo IT. Soy muy autodidacta, con capacidad resolutiva
+                    y con mucha predisposición a aprender.</p>
+                <a href="#footer" class="btn-cover" data-section="profile" data-value="button-contact" >Contactame</a>
+                <div class="social-medias">
+                    <a href="" class="link-social">
+                        <ion-icon name="logo-linkedin" class="icon-social"></ion-icon>
+                    </a>
+                    <a href="" class="link-social">
+                        <ion-icon name="logo-github" class="icon-social"></ion-icon>
+                    </a>
+                </div>
+            </div>
+            <img src="./assets/cover/isometric-code-icon.png" class="img-cover" alt="computers">
+        </div>
+        <div class="wave">
+            <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: var(--primary);"></path></svg></div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="technologies" id="technologies">
+            <h2 class="title-technologies" data-section="technologies" data-value="title-technologies" >Tecnologías y herramientas</h2>
+            <div class="technologies-container">
+                <img src="./assets/technologies/5847f5bdcef1014c0b5e489c.png" alt="tech" class="img-tech">
+                <img src="./assets/technologies/logo-css-3-1536.png" alt="tech" class="img-tech">
+                <img src="./assets/technologies/JavaScript-logo.png" alt="tech" class="img-tech">
+                <img src="./assets/technologies/Typescript_logo_2020.svg.png" alt="tech" class="img-tech">
+                <img src="./assets/technologies/62a74dd1223343fbc2207d00.png" alt="tech" class="img-tech">
+                <img src="./assets/technologies/next-js-logo-7929BCD36F-seeklogo.com.png" alt="tech" class="img-tech">
+                <img src="./assets/technologies/5847f981cef1014c0b5e48be.png" alt="tech" class="img-tech">
+                <img src="./assets/technologies/firebase-1-logo-png-transparent.png" alt="tech" class="img-tech">
+                <img src="./assets/technologies/git-hub-logo.png" alt="tech" class="img-tech">
+                <img src="./assets/technologies/590px-Node.js_logo.svg.png" alt="tech" class="img-tech">
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <h2 class="title-projects" data-section="projects" data-value="title_section_projects">Proyectos destacados</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <img src="./assets/projects/watch-me.png" alt="Watch Me" class="img-project">
+                    <div class="content-project">
+                        <b class="title-project">Watch Me</b>
+                        <p class="description-project" data-section="projects" data-value="first-project-description" >Es una ecommerce de relojes tanto analógicos como digitales y relojes inteligentes.</p>
+                    </div>
+                    <div class="container-tech-link">
+                        <div class="techs-icon">
+                            <img src="./assets/technologies/5847f5bdcef1014c0b5e489c.png" alt="tech" class="img-tech__project">
+                            <img src="./assets/technologies/logo-css-3-1536.png" alt="tech" class="img-tech__project">
+                            <img src="./assets/technologies/JavaScript-logo.png" alt="tech" class="img-tech__project">
+                            <img src="./assets/technologies/62a74dd1223343fbc2207d00.png" alt="tech" class="img-tech__project">
+                            <img src="./assets/technologies/firebase-1-logo-png-transparent.png" alt="tech" class="img-tech__project">
+                        </div>
+                        <a href="https://watch-me-commerce.vercel.app/" target="_blank" data-section="projects" data-value="btn-deploy" class="link-deploy">abrir proyecto</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./assets/projects/movies-plus.png" alt="Movies Plus" class="img-project">
+                    <div class="content-project">
+                        <b class="title-project">Moives Plus</b>
+                        <p class="description-project" data-section="projects" data-value="second-project-description" >Una página de películas y series donde se puede buscar por nombre y por género y además se puede agregar a favoritos.</p>
+                    </div>
+                    <div class="container-tech-link">
+                        <div class="techs-icon">
+                            <img src="./assets/technologies/5847f5bdcef1014c0b5e489c.png" alt="tech" class="img-tech__project">
+                            <img src="./assets/technologies/logo-css-3-1536.png" alt="tech" class="img-tech__project">
+                            <img src="./assets/technologies/JavaScript-logo.png" alt="tech" class="img-tech__project">
+                            <img src="./assets/technologies/nextjs-icon-svgrepo-com.svg" alt="tech" class="img-tech__project">
+                        </div>
+                        <a href="https://movies-plus-iota.vercel.app/" target="_blank" data-section="projects" data-value="btn-deploy" class="link-deploy">abrir proyecto</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="./assets/projects/chat-realtime.png" alt="Chat real time" class="img-project">
+                    <div class="content-project">
+                        <b class="title-project">Chat Real Time</b>
+                        <p class="description-project" data-section="projects" data-value="third-project-description" >Es un chat en tiempo real el cual se ingresa poniendo un nombre de usuario y un "id room" que sería un nombre de chat.</p>
+                    </div>
+                    <div class="container-tech-link">
+                        <div class="techs-icon">
+                            <img src="./assets/technologies/5847f5bdcef1014c0b5e489c.png" alt="tech" class="img-tech__project">
+                            <img src="./assets/technologies/logo-css-3-1536.png" alt="tech" class="img-tech__project">
+                            <img src="./assets/technologies/JavaScript-logo.png" alt="tech" class="img-tech__project">
+                            <img src="./assets/technologies/62a74dd1223343fbc2207d00.png" alt="tech" class="img-tech__project">
+                            <img src="./assets/technologies/nodejs-icon-svgrepo-com.svg" alt="tech" class="img-tech__project">
+                        </div>
+                        <a href="https://chat-realtime-nine.vercel.app/" target="_blank" data-section="projects" data-value="btn-deploy" class="link-deploy">abrir proyecto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <hr class="line-footer"> -->
+        <footer class="footer" id="footer">
+            <div class="separator-container">
+                <div class="separator"></div>
+                <div class="separator"></div>
+            </div>
+            <div class="container-form-svg">
+                <form action="https://formsubmit.co/axeldavidled999@gmail.com" method="post" class="form">
+                    <h2 class="form-title" data-section="footer" data-value="title-contact" >Contactame</h2>
+                    <div class="form-container">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-input" placeholder=" " id="name">
+                            <label for="name" class="form-label" data-section="footer" data-value="label-name" >Nombre:</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-input" placeholder=" " id="email">
+                            <label for="email" class="form-label" data-section="footer" data-value="label-email" >Correo:</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" class="form-input" placeholder=" " id="subject">
+                            <label for="subject" class="form-label" data-section="footer" data-value="label-subject">Asunto:</label>
+                        </div>
+                        <div class="form-group-message">
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder=" " class="form-input-message" ></textarea>
+                            <label for="message" class="form-label-msg form-label" data-section="footer" data-value="label-message" >Mensaje:</label>
+                        </div>
+
+                        <input type="submit" class="btn-submit" data-section="footer" data-value="form-submit" value="Send">
+                    </div>
+
+                    <input type="hidden" name="_next" value="https://lively-crepe-560706.netlify.app/">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+                <img src="./assets/footer-contact/bendy-man-developer-writing-programming-code.png" class="img-footer" alt="programming">
+            </div>
+            <div class="info-footer">
+                <p class="paragraph-info-footer">© 2023|Diseñado y Desarrollado por Axel Ledesma</p>
+            </div>
+        </footer>
     </main>
     <script src="app.js"></script>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>

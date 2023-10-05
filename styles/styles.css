@@ -93,6 +93,7 @@ li {
     position: fixed;
     overflow: hidden;
     top: 0;
+    z-index: 1000;
 }
 
 .link-name {
@@ -282,6 +283,10 @@ li {
 
 /* Technologies */
 
+main, .cover {
+    z-index: 0; 
+}
+
 .technologies {
     width: 100%;
     height: auto;
@@ -311,11 +316,6 @@ li {
     width: 80px;
 }
 
-/* .title-tech {
-    font-family: 'Roboto', sans-serif;
-    color: var(--primary);
-    font-weight: 700;
-} */
 
 .title-technologies {
     font-family: 'Roboto', sans-serif;
@@ -640,7 +640,7 @@ li {
     opacity: 0;
     transform: translate(100%);
     transition: .6s ease-in .3s;
-
+    z-index: 500;
     --opacity: 1;
     --transform: translate(0);
 }
@@ -649,6 +649,7 @@ li {
     opacity: 0;
     transform: scale(0);
     transition: .6s ease-in .3s;
+    z-index: 500;
 
     --opacity: 1;
     --transform: scale(1);
@@ -658,6 +659,7 @@ li {
     opacity: 0;
     transform: translateY(100%);
     transition: .6s ease-in .3s;
+    z-index: 500;
 
     --opacity: 1;
     --transform: translateY(0);
@@ -672,17 +674,16 @@ li {
     .nav-list {
         flex-direction: column;
         position: absolute;
-        margin-top: 440px;
+        margin-top: 425px;
         background-image: var(--bg-cover);
         width: 100vw;
         overflow: hidden;
-        height: 100vh;
+        height: 100vh !important;
         justify-content: center;
         padding: 5px;
         flex-grow: 1;
         left: 560px;    
         transition: all ease-in .3s;
-        z-index: 1;
     }
 
     .nav-item {

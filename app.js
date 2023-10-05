@@ -1,10 +1,39 @@
-// Toggle menu
+// Efect when scroll
+
+const elements = document.querySelectorAll(".animation")  
+
+ function callAnimations(entries){
+    entries.forEach(entry => {
+        const element = entry.target.querySelectorAll("[data-animation]")
+
+        element.forEach(el => {
+            el.classList.toggle("unset", entry.isIntersecting);
+        })
+    })
+ }
+
+
+ const options = {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0.5
+ }
+
+ const observer = new IntersectionObserver(callAnimations, options)
+
+ elements.forEach(element => {
+    observer.observe(element)
+ })
+
+ // Toggle menu
 
 const toogleInput = document.querySelector("#checkbox")
 
 const navList = document.getElementById("nav-list")
 
 const navbar = document.getElementById("navbar")
+
+const navLinks = document.querySelectorAll("#nav-link")
 
 toogleInput.addEventListener("change", (e)=>{
     const checked = e.target.checked
@@ -16,6 +45,16 @@ toogleInput.addEventListener("change", (e)=>{
         navList.style.left = "520px"
     }
 })
+
+navLinks.forEach(link => {
+    link.addEventListener("click", ()=>{
+        if(screen.width >= 550){
+            toogleInput.checked = false
+            navList.style.left = "520px"
+        }
+    })
+})
+
 
 // Change navbar color when scroll
 

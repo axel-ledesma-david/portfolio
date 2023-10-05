@@ -30,9 +30,9 @@
             </div>
 
             <ul class="nav-list" id="nav-list">
-                <li class="nav-item"><a href="#technologies" class="nav-link" data-section="nav-items" data-value="first-item" >Habilidades</a></li>
-                <li class="nav-item"><a href="#projects" class="nav-link" data-section="nav-items" data-value="second-item">Proyectos</a></li>
-                <li class="nav-item"><a href="#footer" class="nav-link" data-section="nav-items" data-value="third-item" >Contacto</a></li>
+                <li class="nav-item"><a href="#technologies" class="nav-link" id="nav-link" data-section="nav-items" data-value="first-item" >Habilidades</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link" id="nav-link" data-section="nav-items" data-value="second-item">Proyectos</a></li>
+                <li class="nav-item"><a href="#footer" class="nav-link" id="nav-link" data-section="nav-items" data-value="third-item" >Contacto</a></li>
                 
                 <div class="icon-mode-container" id="icon-container">
                     <ion-icon name="moon" class="icon-mode"></ion-icon>
@@ -46,8 +46,8 @@
             </label>
         </nav>
 
-        <div class="cover">
-            <div class="text-cover">
+        <div class="cover animation">
+            <div class="text-cover" data-animation="show">
                 <h1 class="title-cover" data-section="profile" data-value="greeting" >Hola, soy Axel Ledesma - Desarrollador Front-end</h1>
                 <p class="paragraph-cover" data-section="profile" data-value="description">Soy un entusiasta del mundo IT. Soy muy autodidacta, con capacidad resolutiva
                     y con mucha predisposición a aprender.</p>
@@ -61,16 +61,16 @@
                     </a>
                 </div>
             </div>
-            <img src="./assets/cover/isometric-code-icon.png" class="img-cover" alt="computers">
+            <img src="./assets/cover/isometric-code-icon.png" class="img-cover" alt="computers" data-animation="fade">
         </div>
         <div class="wave">
             <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: var(--primary);"></path></svg></div>
         </div>
     </header>
     <main class="main">
-        <section class="technologies" id="technologies">
+        <section class="technologies animation" id="technologies">
             <h2 class="title-technologies" data-section="technologies" data-value="title-technologies" >Tecnologías y herramientas</h2>
-            <div class="technologies-container">
+            <div class="technologies-container" data-animation="show">
                 <img src="./assets/technologies/5847f5bdcef1014c0b5e489c.png" alt="tech" class="img-tech">
                 <img src="./assets/technologies/logo-css-3-1536.png" alt="tech" class="img-tech">
                 <img src="./assets/technologies/JavaScript-logo.png" alt="tech" class="img-tech">
@@ -85,8 +85,8 @@
         </section>
         <section class="projects" id="projects">
             <h2 class="title-projects" data-section="projects" data-value="title_section_projects">Proyectos destacados</h2>
-            <div class="projects-container">
-                <div class="project">
+            <div class="projects-container animation">
+                <div class="project" data-animation="up">
                     <img src="./assets/projects/watch-me.png" alt="Watch Me" class="img-project">
                     <div class="content-project">
                         <b class="title-project">Watch Me</b>
@@ -103,7 +103,7 @@
                         <a href="https://watch-me-commerce.vercel.app/" target="_blank" data-section="projects" data-value="btn-deploy" class="link-deploy">abrir proyecto</a>
                     </div>
                 </div>
-                <div class="project">
+                <div class="project" data-animation="show">
                     <img src="./assets/projects/movies-plus.png" alt="Movies Plus" class="img-project">
                     <div class="content-project">
                         <b class="title-project">Moives Plus</b>
@@ -119,7 +119,7 @@
                         <a href="https://movies-plus-iota.vercel.app/" target="_blank" data-section="projects" data-value="btn-deploy" class="link-deploy">abrir proyecto</a>
                     </div>
                 </div>
-                <div class="project">
+                <div class="project" data-animation="up">
                     <img src="./assets/projects/chat-realtime.png" alt="Chat real time" class="img-project">
                     <div class="content-project">
                         <b class="title-project">Chat Real Time</b>
@@ -144,8 +144,8 @@
                 <div class="separator"></div>
                 <div class="separator"></div>
             </div>
-            <div class="container-form-svg">
-                <form action="https://formsubmit.co/axeldavidled999@gmail.com" method="post" class="form">
+            <div class="container-form-svg animation">
+                <form action="https://formsubmit.co/axeldavidled999@gmail.com" method="post" class="form" data-animation="up">
                     <h2 class="form-title" data-section="footer" data-value="title-contact" >Contactame</h2>
                     <div class="form-container">
                         <div class="form-group">
@@ -165,13 +165,13 @@
                             <label for="message" class="form-label-msg form-label" data-section="footer" data-value="label-message" >Mensaje:</label>
                         </div>
 
-                        <input type="submit" class="btn-submit" data-section="footer" data-value="form-submit" value="Send">
+                        <input type="submit" class="btn-submit" data-section="footer" data-value="form-submit" value="Send">s
                     </div>
 
                     <input type="hidden" name="_next" value="https://lively-crepe-560706.netlify.app/">
                     <input type="hidden" name="_captcha" value="false">
                 </form>
-                <img src="./assets/footer-contact/bendy-man-developer-writing-programming-code.png" class="img-footer" alt="programming">
+                <img src="./assets/footer-contact/bendy-man-developer-writing-programming-code.png" class="img-footer" alt="programming" data-animation="up">
             </div>
             <div class="info-footer">
                 <p class="paragraph-info-footer">© 2023|Diseñado y Desarrollado por Axel Ledesma</p>

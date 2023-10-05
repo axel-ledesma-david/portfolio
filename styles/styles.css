@@ -82,7 +82,7 @@ li {
 
 
 .navbar {
-    width: 100%;
+    width: 100vw;
     height: 80px;
     background-color: transparent;
     display: flex;
@@ -729,3 +729,4 @@ main, .cover {
 
     
 }
+

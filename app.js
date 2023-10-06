@@ -1,4 +1,4 @@
-// Efect when scroll
+// Animation when scroll
 
 const elements = document.querySelectorAll(".animation")  
 
@@ -86,7 +86,7 @@ const btnScroll = document.getElementById("btn-scroll")
 
 
 
-// Toggle Language
+// Change Language
 
 const flagsContainer = document.getElementById("flags") 
 

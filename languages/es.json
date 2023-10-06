@@ -27,6 +27,7 @@
         "label-email": "Correo",
         "label-subject": "Asunto",
         "label-message": "Mensaje",
-        "form-submit": "Enviar correo"
+        "form-submit": "Enviar correo",
+        "text-footer-bottom": "© 2023|Diseñado y desarrollado por Axel Ledesma"
     }
 }

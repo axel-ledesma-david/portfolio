@@ -592,12 +592,8 @@ main, .cover {
 .icon-scroll-up {
     width: 100%;
     height: 100%;
-    border: solid saddlebrown 3px;
 }
 
-body {
-    border: solid rebeccapurple 3px;
-}
 
 .whatsapp {
     width: 60px;
@@ -605,7 +601,6 @@ body {
     bottom: 15px;
     right: 15px;
     position: fixed;
-    border: solid violet 3px;
 }
 
 .svg-wsp {

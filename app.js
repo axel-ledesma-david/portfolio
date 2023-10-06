@@ -48,7 +48,7 @@ toogleInput.addEventListener("change", (e)=>{
 
 navLinks.forEach(link => {
     link.addEventListener("click", ()=>{
-        if(screen.width >= 550){
+        if(screen.width <= 550){
             toogleInput.checked = false
             navList.style.left = "520px"
         }
